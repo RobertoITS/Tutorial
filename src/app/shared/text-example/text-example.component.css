@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+	background: #180148;
+}
+
+h1{
+  background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2016/07/2016-07-20-e1469025802543.gif?w=960&h=578&crop=1");
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

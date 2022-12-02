@@ -29,7 +29,8 @@ import { SpinnerComponent } from './spinner/spinner.component';
     UpsComponent,
     LoadingComponent,
     TextExampleComponent,
-    BlobComponent
+    BlobComponent,
+    SpinnerComponent
   ]
 })
 export class SharedModule { }

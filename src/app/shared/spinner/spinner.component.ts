@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class SpinnerComponent {
 
+  ngAfterViewInit(){
+    let loaderel = document.querySelector<HTMLElement>(".loaderelement")
+
+    window.addEventListener("load", function() {
+      loaderel!!.style.display = "none"
+    })
+  }
 }
